@@ -38,7 +38,7 @@
         "method": "default"
       },
       {
-        "domain_suffix": "mbakyu.mustaqimraya.my.id",
+        "domain_suffix": "104.20.75.141",
         "server": "direct-dns"
       },
       {
@@ -95,7 +95,7 @@
       "type": "trojan",
       "tag": "Atlantic",
       "domain_strategy": "ipv4_only",
-      "server": "umbra.mustaqimraya.my.id",
+      "server": "104.20.75.141",
       "server_port": 443,
       "password": "PeHDvrfnwUMoU9a8oID91Q",
       "tls": {
@@ -120,7 +120,7 @@
       "type": "vmess",
       "tag": "ADAMMELBI",
       "domain_strategy": "ipv4_only",
-      "server": "umbra.mustaqimraya.my.id",
+      "server": "104.20.75.141",
       "server_port": 443,
       "uuid": "8eab8d56-6581-4ddf-b0b0-4c762d3a8992",
       "security": "auto",
@@ -147,7 +147,7 @@
       "type": "trojan",
       "tag": "ADAMAWS",
       "domain_strategy": "ipv4_only",
-      "server": "umbra.mustaqimraya.my.id",
+      "server": "104.20.75.141",
       "server_port": 443,
       "password": "MBf5ZDDt5Upo7337OhpbWA",
       "tls": {
@@ -173,7 +173,7 @@
       "type": "trojan",
       "tag": "Aws-Decta",
       "domain_strategy": "ipv4_only",
-      "server": "umbra.mustaqimraya.my.id",
+      "server": "104.20.75.141",
       "server_port": 443,
       "password": "1mo4Lu3rVKhCRoT0oGU0wg",
       "tls": {
