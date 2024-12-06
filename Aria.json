@@ -8,7 +8,7 @@
       {
         "tag": "Internet-dns",
         "address": "tls://dns.adguard-dns.com",
-        "address_resolver": "direct-dns",
+        "address_resolver": "1.1.1.1",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
         "detour": "Internet"
@@ -38,7 +38,7 @@
         "method": "default"
       },
       {
-        "domain_suffix": "104.20.75.141",
+        "domain_suffix": "mbakyu.mustaqimraya.my.id",
         "server": "direct-dns"
       },
       {
