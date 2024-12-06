@@ -61,29 +61,6 @@ if [[ "$COUNTRY_CODE" == "ID" ]]; then
     read -p "Apakah Anda ingin menggunakan repo lokal Indonesia? (y/n): " use_local_repo
 
     if [[ "$use_local_repo" == "y" || "$use_local_repo" == "Y" ]]; then
-        # Pemeriksaan OS untuk menambahkan repo yang sesuai
-        case "$OS" in
-            Debian)
-                VERSION=$(lsb_release -sr)
-                if [ "$VERSION" == "11" ]; then
-                    addDebian11Repo
-                else
-                    colorized_echo red "Versi Debian ini tidak didukung."
-                fi
-                ;;
-            Ubuntu)
-                VERSION=$(lsb_release -sr)
-                if [ "$VERSION" == "20.04" ]; then
-                    addUbuntu2004Repo
-                else
-                    colorized_echo red "Versi Ubuntu ini tidak didukung."
-                fi
-                ;;
-            *)
-                colorized_echo red "Sistem Operasi ini tidak didukung."
-                ;;
-        esac
-    else
         colorized_echo yellow "Menggunakan repo bawaan VM."
         # Tidak melakukan apa-apa, sehingga repo bawaan VM tetap digunakan
     fi
