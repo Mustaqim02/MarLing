@@ -28,19 +28,7 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
-# Check supported operating system
-supported_os=false
 
-if [ -f /etc/os-release ]; then
-    os_name=$(grep -E '^ID=' /etc/os-release | cut -d= -f2)
-    os_version=$(grep -E '^VERSION_ID=' /etc/os-release | cut -d= -f2 | tr -d '"')
-
-    if [ "$os_name" == "debian" ] && [ "$os_version" == "11" ]; then
-        supported_os=true
-    elif [ "$os_name" == "ubuntu" ] && [ "$os_version" == "20.04" ]; then
-        supported_os=true
-    fi
-fi
 apt install sudo curl -y
 
 # Fungsi untuk menambahkan repo Debian 11
