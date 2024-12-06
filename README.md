@@ -27,6 +27,9 @@ Credit aplikasi full to [Gozargah Marzban](https://github.com/Gozargah), saya ha
 - Ubuntu 20.04 </br>
 
 # Instalasi
+```html
+sudo -i
+'''
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
  ```
