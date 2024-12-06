@@ -8,7 +8,7 @@
       {
         "tag": "Internet-dns",
         "address": "tls://dns.adguard-dns.com",
-        "address_resolver": "1.1.1.1",
+        "address_resolver": "direct-dns",
         "address_strategy": "ipv4_only",
         "strategy": "ipv4_only",
         "detour": "Internet"
