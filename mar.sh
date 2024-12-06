@@ -42,10 +42,6 @@ if [ -f /etc/os-release ]; then
     fi
 fi
 apt install sudo curl -y
-if [ "$supported_os" != true ]; then
-    colorized_echo red "Error: Skrip ini hanya support di Debian 11 dan Ubuntu 20.04. Mohon gunakan OS yang di support."
-    exit 1
-fi
 
 # Fungsi untuk menambahkan repo Debian 11
 addDebian11Repo() {
