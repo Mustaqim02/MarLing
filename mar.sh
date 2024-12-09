@@ -236,7 +236,7 @@ yes | sudo ufw enable
 wget -O /var/lib/marzban/db.sqlite3 "https://github.com/Mustaqim02/MarLing/raw/main/db.sqlite3"
 
 #install WARP Proxy
-wget -O /root/warp "https://raw.githubusercontent.com/hamid-gh98/x-ui-scripts/main/install_warp_proxy.sh"
+wget -O /root/warp "https://raw.githubusercontent.com/Mustaqim02/x-ui-scripts/main/install_warp_proxy.sh"
 sudo chmod +x /root/warp
 sudo bash /root/warp -y 
 
